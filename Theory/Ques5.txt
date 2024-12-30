@@ -1,0 +1,7 @@
+5. What do you understand By Data Redundancy?
+
+Ans : 
+Data redundancy occurs when the same piece of data is stored in multiple 
+places within a database or system, leading to unnecessary duplication. It can 
+cause inefficiencies, increased storage requirements, and potential 
+inconsistencies in data management.

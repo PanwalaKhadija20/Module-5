@@ -1,0 +1,10 @@
+4. What is MF Cod Rule of RDBMS Systems?
+
+Ans : 
+->The E.F. Codd Rules are a set of 12 rules proposed by Dr. Edgar F. Codd 
+to define what constitutes a true Relational Database Management System (
+RDBMS). They ensure that a system properly follows relational principles.
+
+->These rules emphasize concepts like data integrity, logical data 
+independence, and support for relational algebra, aiming for better data 
+organization and management.

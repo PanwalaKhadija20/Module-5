@@ -1,0 +1,31 @@
+9. What is save Point? How to create a save Point write a Query?
+
+Ans : 
+A SAVEPOINT in SQL is used to set a point within a transaction, allowing 
+you to roll back to that point if needed, without rolling back the entire 
+transaction. It provides a way to create intermediate restore points within a 
+transaction.
+
+Example to create a SAVEPOINT:
+BEGIN TRANSACTION;
+
+->Some SQL operations
+INSERT INTO Employees (EmployeeID, Name) VALUES (1, 'John Doe');
+SAVEPOINT before_insert;  -- Create a savepoint
+
+->Another SQL operation
+INSERT INTO Employees (EmployeeID, Name) VALUES (2, 'Jane Doe');
+
+->Rollback to the savepoint if needed
+ROLLBACK TO SAVEPOINT before_insert;
+
+->Commit the transaction
+COMMIT;
+
+
+In this example:
+
+A savepoint is created after the first insert.
+If there's a need to revert to that point, the ROLLBACK TO SAVEPOINT command 
+can be used.
+If everything is successful, the transaction is committed.

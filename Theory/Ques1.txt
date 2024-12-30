@@ -1,0 +1,6 @@
+1. What do you understand By Database
+
+Ans : 
+A database is an organized collection of data stored electronically for 
+efficient management, retrieval, and manipulation. It is managed using software 
+like a Database Management System (DBMS), such as MySQL or MongoDB.
